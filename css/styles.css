@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2? family=Lato&display=swap');
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+   
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 28px;
+}
+header{
+    background-color: #ffffff;
+    box-shadow: 0px 2px 10px rgb(100, 100, 100);
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+}
+
+
+figure img {
+    max-width: 80%;
+    display: block;
+    justify-content: center;
+    border-radius: 300px;
+    margin: 1rem;
+    
+}
+li{
+    justify-content: left ;
+}
+#Inicio{
+    display: block;
+    text-align: center;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+
+#Contacto{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(175, 89, 158, 0.3);
+    color:  #0f0f0f;
+    display: block;
+    font-size: 18px;
+    line-height: 21px;
+    scroll-behavior: smooth;
+    border-radius: 20px;
+    padding: 10px;
+
+    
+}
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none; 
+   align-items: center;
+    
+}
+#iconos {
+    display: flex;
+    justify-content: center; 
+}
+
+#menu-inicio{
+    text-align: center ;
+}
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+    align-items: center;
+
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+button{
+    background-color:  #af599e;
+    color:  #fbfbfb;
+    font-size: 20px;
+    border-radius: 20px;
+    border: #fbfbfb;
+    
+
+    
+}
+footer{
+    background-color: #af599e;
+    color:  #fbfbfb;
+    justify-content: center;
+    display: flex;
+    height: 90px;
+    font-size: 22px;
+
+}
+/* Recomendaciones! 
+*  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
+*    "estilos generales". Una buena idea sería comenzar por el <body> ;)
+*
+*  - Recuerden que queremos evitar "repetir código", en CSS usando la cualidad de la herencia
+*    podemos setear ciertas propiedades en un elemento padre y dejar que sean heredadas (por ejemplo: font-size)
+*
+*  - Nadie sabe todas las propiedades CSS de memoria, si no saben como hacer algo no lo recuerdan, la respuesta
+*    pueden encontrarla buscando en la web algo como "CSS como hacer ... " o "propiedad css para hacer ..."
+*
+*  - Usen mucho las herramientas para desarrolladores del navegador para ir
+*    probando el CSS que escriben, resolver dudas y problemas.
+*
+*  - Paciencia, resiliencia y creatividad! No se desanimen, las primeras experiencias maquetando con HTML y CSS
+*    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
+*    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
+*/
